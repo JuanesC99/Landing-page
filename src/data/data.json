@@ -1,0 +1,167 @@
+{
+  "Header": {
+    "title": "Somos una pagina de juegos",
+    "paragraph": "Somos una tienda dedicada a ofrecer los mejores juegos, consolas y accesorios para gamers de todas las edades."
+  },
+  "About": {
+    "paragraph": "En No sabemos aun, creemos en el poder de los juegos para unir, inspirar y entretener. Desde nuestra fundación en 2025, nos hemos dedicado a crear experiencias digitales únicas que combinan innovación, creatividad y diversión. Nuestro equipo está formado por apasionados desarrolladores, diseñadores y narradores que trabajan juntos para ofrecer juegos que desafíen, emocionen y conecten con jugadores de todo el mundo. Nos enorgullece ofrecer una amplia variedad de títulos, desde aventuras épicas hasta desafíos casuales, diseñados para todos los gustos y edades. En cada proyecto, nos esforzamos por superar expectativas, utilizando tecnología de vanguardia y escuchando siempre a nuestra comunidad. Gracias por ser parte de nuestra historia y por acompañarnos en esta emocionante travesía. ¡Juntos, seguiremos creando mundos increíbles y experiencias inolvidables!",
+    "Why": [
+      "Experiencia y Pasión",
+      "Innovación Constante",
+      "Variedad para Todos",
+      "Compromiso con la Comunidad"
+    ],
+    "Why2": [
+      "Calidad Garantizada",
+      "Diversión sin Límites",
+      "Contenido Actualizado",
+      "Comunidad Global"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Juego 1",
+      "description": "Una emocionante aventura en un mundo fantástico.",
+      "price": "$59.99",
+      "largeImage": "https://via.placeholder.com/600x400?text=Juego+1",
+      "smallImage": "https://via.placeholder.com/300x200?text=Juego+1"
+    },
+    {
+      "title": "Juego 2",
+      "description": "Un juego de estrategia que pondrá a prueba tu ingenio.",
+      "price": "$49.99",
+      "largeImage": "https://via.placeholder.com/600x400?text=Juego+2",
+      "smallImage": "https://via.placeholder.com/300x200?text=Juego+2"
+    },
+    {
+      "title": "Juego 3",
+      "description": "Una experiencia de acción y aventura sin igual.",
+      "price": "$39.99",
+      "largeImage": "https://via.placeholder.com/600x400?text=Juego+3",
+      "smallImage": "https://via.placeholder.com/300x200?text=Juego+3"
+    },
+    {
+      "title": "Juego 4",
+      "description": "Un juego de rol con una historia envolvente.",
+      "price": "$29.99",
+      "largeImage": "https://via.placeholder.com/600x400?text=Juego+4",
+      "smallImage": "https://via.placeholder.com/300x200?text=Juego+4"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-wordpress",
+      "name": "Tienda de Videojuegos ",
+      "text": "Compra los últimos títulos y juegos exclusivos con ofertas especiales cada semana."
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Gaming Online",
+      "text": "Únete a partidas multijugador y torneos online en nuestras plataformas de juego."
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "Comunidad de Gamers",
+      "text": "Forma parte de nuestra comunidad, crea equipos, y comparte tus logros."
+    },
+    {
+      "icon": "fa fa-language",
+      "name": "Reseñas y Guías",
+      "text": "Accede a análisis detallados, guías y trucos de tus juegos favoritos."
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Torneos y Eventos",
+      "text": "Participa en torneos locales e internacionales con increíbles premios."
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Soporte 24/7",
+      "text": "Nuestro equipo te ayuda a resolver cualquier problema técnico o consulta."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "4321 California St, San Francisco, CA 12345 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Comentarios",
+      "text": "Las opiniones de otros jugadores te aseguran una compra segura y sin sorpresas."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Anuncios",
+      "text": "Revisa nuestros anuncios y mantente informado sobre descuentos, novedades y eventos exclusivos"
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Comunidad",
+      "text": "Únete a nuestra comunidad y comparte tu pasión por los juegos con otros jugadores."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Personalización",
+      "text": "Personaliza tu experiencia y hazla única."
+    }
+  ]
+}
