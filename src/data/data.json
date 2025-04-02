@@ -20,32 +20,39 @@
   },
   "Gallery": [
     {
-      "title": "Juego 1",
-      "description": "Una emocionante aventura en un mundo fantástico.",
+      "title": "GTA 5",
+      "description": "Una emocionante aventura en un mundo abierto lleno de acción.",
       "price": "$59.99",
-      "largeImage": "https://via.placeholder.com/600x400?text=Juego+1",
-      "smallImage": "https://via.placeholder.com/300x200?text=Juego+1"
+      "smallImage": "https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg",
+      "trailer": "https://www.w3schools.com/html/mov_bbb.mp4"
     },
     {
-      "title": "Juego 2",
-      "description": "Un juego de estrategia que pondrá a prueba tu ingenio.",
+      "title": "Left 4 Dead 2",
+      "description": "Un juego de supervivencia cooperativa contra hordas de zombis.",
       "price": "$49.99",
-      "largeImage": "https://via.placeholder.com/600x400?text=Juego+2",
-      "smallImage": "https://via.placeholder.com/300x200?text=Juego+2"
+      "smallImage": "https://cdn.akamai.steamstatic.com/steam/apps/550/header.jpg",
+      "trailer": "/video/left.mp4"
     },
     {
-      "title": "Juego 3",
-      "description": "Una experiencia de acción y aventura sin igual.",
+      "title": "GTA 4: The Complete Edition",
+      "description": "La edición completa de GTA 4 con todas las expansiones.",
       "price": "$39.99",
-      "largeImage": "https://via.placeholder.com/600x400?text=Juego+3",
-      "smallImage": "https://via.placeholder.com/300x200?text=Juego+3"
+      "smallImage": "https://cdn.akamai.steamstatic.com/steam/apps/12210/header.jpg",
+      "trailer": "https://www.w3schools.com/html/mov_bbb.mp4"
     },
     {
-      "title": "Juego 4",
-      "description": "Un juego de rol con una historia envolvente.",
-      "price": "$29.99",
-      "largeImage": "https://via.placeholder.com/600x400?text=Juego+4",
-      "smallImage": "https://via.placeholder.com/300x200?text=Juego+4"
+      "title": "Left 4 Dead",
+      "description": "El clásico juego de supervivencia cooperativa contra zombis.",
+      "price": "$39.99",
+      "smallImage": "https://cdn.akamai.steamstatic.com/steam/apps/500/header.jpg",
+      "trailer": "https://www.w3schools.com/html/movie.mp4"
+    },
+    {
+      "title": "Human: Fall Flat",
+      "description": "Un divertido juego de plataformas basado en la física con rompecabezas desafiantes.",
+      "price": "$19.99",
+      "smallImage": "https://cdn.akamai.steamstatic.com/steam/apps/477160/header.jpg",
+      "trailer": "https://www.w3schools.com/html/mov_bbb.mp4"
     }
   ],
   "Services": [
