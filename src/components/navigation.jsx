@@ -1,6 +1,11 @@
 import React from "react";
 
 export const Navigation = (props) => {
+  const toggleCart = () => {
+    // Logic to toggle the cart
+    console.log("Cart toggled");
+  };
+
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
@@ -44,7 +49,7 @@ export const Navigation = (props) => {
             </li>
             <li>
               <a href="#portfolio" className="page-scroll">
-                Galeria              
+                Galeria
               </a>
             </li>
             <li>
@@ -61,6 +66,12 @@ export const Navigation = (props) => {
               <a href="#contact" className="page-scroll">
                 Contacto
               </a>
+            </li>
+            {/* Ícono del carrito */}
+            <li>
+              <button className="cart-icon" onClick={toggleCart}>
+                🛒 <span className="cart-count">{props.cartCount}</span>
+              </button>
             </li>
           </ul>
         </div>

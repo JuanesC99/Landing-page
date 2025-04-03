@@ -24,6 +24,12 @@ export const Header = (props) => {
           </div>
         </div>
       </div>
+      {/* Botón del carrito */}
+      <div className="cart-icon">
+        <a href="#cart">
+          🛒 <span className="cart-count">{props.cartCount}</span>
+        </a>
+      </div>
     </header>
   );
 };

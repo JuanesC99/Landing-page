@@ -91,43 +91,7 @@
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  animation: slideIn 0.5s ease-in-out;
-}
-
-.modal-content.closing {
-  animation: slideOut 0.5s ease-in-out;
-}
-
-.modal-content h3 {
-  margin-bottom: 10px;
-  animation: blink 1.5s infinite;
-}
-
-@keyframes blink {
-  0%, 100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.5;
-  }
-}
-
-.modal-content button {
-  margin-top: 15px;
-  padding: 10px 20px;
-  background-color: #28a745;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.modal-content button:hover {
-  background-color: #218838;
-  transform: scale(1.05);
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
 }
 
 /* Botón de cerrar */
@@ -137,11 +101,11 @@
   right: 10px;
   background: none;
   border: none;
-  font-size: 18px; /* Reducimos el tamaño de la fuente */
+  font-size: 18px;
   color: #333;
   cursor: pointer;
   transition: transform 0.3s ease, color 0.3s ease;
-  padding: 5px; /* Agregamos un poco de espacio alrededor */
+  padding: 5px;
 }
 
 .close-button:hover {
@@ -218,7 +182,7 @@
 .confetti-origin {
   font-size: 50px;
   position: relative;
-  z-index: 1200; /* Por encima de los confetis */
+  z-index: 1200;
   animation: bounce 1s infinite;
 }
 
@@ -268,7 +232,7 @@
   margin-top: 20px;
   font-size: 24px;
   text-align: center;
-  z-index: 1300; /* Por encima del emoji y los confetis */
+  z-index: 1300;
   animation: fadeIn 0.5s ease-in-out;
 }
 
@@ -352,9 +316,9 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #f1f1f1; /* Cambiamos el fondo a un gris claro */
-  color: #333; /* Cambiamos el color del texto a un gris oscuro */
-  border: 1px solid #ddd; /* Agregamos un borde para que sea más visible */
+  background-color: #f1f1f1;
+  color: #333;
+  border: 1px solid #ddd;
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -365,37 +329,37 @@
 }
 
 .scroll-to-top:hover {
-  background-color: #e0e0e0; /* Cambiamos el fondo al pasar el mouse */
-  transform: scale(1.1); /* Efecto de escala al pasar el mouse */
+  background-color: #e0e0e0;
+  transform: scale(1.1);
 }
 
 /* Fondo del video dentro del portfolio */
 .video-background {
-  position: absolute; /* Cambiamos a absoluto para que esté dentro del #portfolio */
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 0; /* Asegura que esté detrás del contenido del portfolio */
+  z-index: 0;
   overflow: hidden;
 }
 
 .video-background video {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Asegura que el video cubra todo el contenedor */
-  opacity: 0.3; /* Reduce la opacidad del video */
-  filter: blur(2px); /* Agrega un ligero desenfoque */
-  pointer-events: none; /* Evita que interfiera con los clics */
+  object-fit: cover;
+  opacity: 0.3;
+  filter: blur(2px);
+  pointer-events: none;
 }
 
 #portfolio {
-  position: relative; /* Asegura que el video-background se posicione dentro de este contenedor */
-  background: linear-gradient(120deg, #f6d365, #fda085, #84fab0, #8fd3f4); /* Degradado de colores */
-  background-size: 300% 300%; /* Aumentamos el tamaño del fondo para animarlo */
-  animation: gradientAnimation 8s ease infinite; /* Animación del fondo */
-  overflow: hidden; /* Oculta cualquier contenido que se salga del contenedor */
-  z-index: 1; /* Asegura que el contenido del portfolio esté por encima del video */
+  position: relative;
+  background: linear-gradient(120deg, #f6d365, #fda085, #84fab0, #8fd3f4);
+  background-size: 300% 300%;
+  animation: gradientAnimation 8s ease infinite;
+  overflow: hidden;
+  z-index: 1;
 }
 
 /* Animación del degradado */
@@ -433,5 +397,80 @@ button::after {
 
 button:hover::after {
   opacity: 1;
+}
+
+/* Cart styles */
+.cart {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 300px;
+}
+
+.cart h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.cart ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cart li {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.cart p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Cart icon styles */
+.cart-icon {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 18px;
+  color: white;
+  background-color: #333;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  z-index: 1000;
+}
+
+.cart-icon:hover {
+  background-color: #555;
+  transform: scale(1.1);
+}
+
+.cart-icon .cart-count {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 

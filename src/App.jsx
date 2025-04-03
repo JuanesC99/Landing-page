@@ -19,6 +19,13 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 
 const App = () => {
   const [landingPageData, setLandingPageData] = useState({});
+  const [cart, setCart] = useState([]); // Estado del carrito
+  const [isCartOpen, setIsCartOpen] = useState(false);
+
+  const toggleCart = () => {
+    setIsCartOpen(!isCartOpen);
+  };
+
   useEffect(() => {
     setLandingPageData(JsonData);
   }, []);
@@ -26,14 +33,35 @@ const App = () => {
   return (
     <div>
       <Navigation />
-      <Header data={landingPageData.Header} />
+      <Header data={landingPageData.Header} cartCount={cart.length} />
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
-      <Gallery data={landingPageData.Gallery} />
+      <Gallery data={landingPageData.Gallery} cart={cart} setCart={setCart} />
       <Testimonials data={landingPageData.Testimonials} />
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
+      {isCartOpen && (
+        <div className="modal-overlay">
+          <div className="modal-content">
+            <button className="close-button" onClick={toggleCart}>
+              ✕
+            </button>
+            <h3>Carrito</h3>
+            {cart.length > 0 ? (
+              <ul>
+                {cart.map((item, index) => (
+                  <li key={index}>
+                    {item.title} - {item.quantity} x {item.price}
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <p>El carrito está vacío.</p>
+            )}
+          </div>
+        </div>
+      )}
     </div>
   );
 };

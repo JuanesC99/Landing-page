@@ -12,6 +12,7 @@ export const Gallery = (props) => {
   const [confirmationMessage, setConfirmationMessage] = useState(false);
   const [isClosing, setIsClosing] = useState(false);
   const [highlightedGame, setHighlightedGame] = useState(null);
+  const [cart, setCart] = useState([]); // Estado para el carrito
   const videoRef = useRef(null);
 
   useEffect(() => {
@@ -21,6 +22,8 @@ export const Gallery = (props) => {
   }, [highlightedGame]);
 
   const handleAddToCart = (game) => {
+    const newCartItem = { ...game, quantity }; // Agrega el juego con la cantidad seleccionada
+    setCart((prevCart) => [...prevCart, newCartItem]); // Actualiza el carrito
     console.log(`Agregado al carrito: ${game.title}, Cantidad: ${quantity}`);
     const audio = new Audio("/sounds/congratulations.mp3"); // Ruta del archivo de sonido
     audio.play(); // Reproduce el sonido
@@ -116,6 +119,22 @@ export const Gallery = (props) => {
           ¡Producto agregado al carrito con éxito!
         </div>
       )}
+
+      {/* Carrito */}
+      <div className="cart">
+        <h3>Carrito</h3>
+        {cart.length > 0 ? (
+          <ul>
+            {cart.map((item, index) => (
+              <li key={index}>
+                {item.title} - {item.quantity} x {item.price}
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p>El carrito está vacío.</p>
+        )}
+      </div>
 
       {/* Botón para volver al inicio */}
       <button className="scroll-to-top" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
